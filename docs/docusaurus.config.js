@@ -8,17 +8,21 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Warp is awesome 🌠',
   tagline: 'Bringing Ethereum smart contracts to StarkNet',
-  url: 'https://gojuno.xyz',
-  baseUrl: '/',
+  // url: 'https://gojuno.xyz',
+  url: 'https://github.com',
+  baseUrl: '/warp/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/warp.svg',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'NethermindEth', // Usually your GitHub org/user name.
-  projectName: 'juno', // Usually your repo name.
-  trailingSlash: false,
+  // organizationName: 'NethermindEth', // Usually your GitHub org/user name.
+  // projectName: 'juno', // Usually your repo name.
+  // trailingSlash: false,
+  organizationName: 'davidmitesh',
+  projectName: 'warp',
+  deploymentBranch: 'gh-pages',
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -37,13 +41,13 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/NethermindEth/juno/tree/main/docs/',
+          editUrl: 'https://github.com/davidmitesh/warp/tree/main/docs',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/NethermindEth/juno/tree/main/docs/',
+          editUrl: 'https://github.com/davidmitesh/warp/tree/main/docs',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -70,7 +74,7 @@ const config = {
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/NethermindEth/juno',
+            href: 'https://github.com/davidmitesh/warp',
             label: 'GitHub',
             position: 'right',
           },
