@@ -22,6 +22,7 @@ jobs:
 
       - name: Install dependencies and build website
         run: |
+          cd docs 
           yarn install --frozen-lockfile
           yarn build
 
